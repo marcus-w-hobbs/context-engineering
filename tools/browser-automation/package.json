@@ -1,0 +1,18 @@
+{
+  "name": "browser-automation",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Browser automation tools for autonomous visual debugging",
+  "scripts": {
+    "start": "node start.js",
+    "nav": "node nav.js",
+    "screenshot": "node screenshot.js",
+    "eval": "node eval.js",
+    "pick": "node pick.js",
+    "console": "node console.js"
+  },
+  "dependencies": {
+    "puppeteer-core": "^23.0.0"
+  }
+}
