@@ -82,6 +82,12 @@ The human says *what* to fix. The agent figures out *how* to see it, diagnose it
 
 ## What's in This Repo
 
+### `/compound-learning`
+A self-reinforcing loop for capturing and reusing solutions:
+- **Commands** — Slash commands that force searching past learnings before planning
+- **Examples** — Sanitized solutions demonstrating the pattern (CORS, auth, CSS, env vars)
+- **The insight** — After one week, 30+ documented solutions; each new task benefits from past debugging
+
 ### `/patterns`
 Reusable CLAUDE.md templates:
 - **frontend-claude.md** — React/TypeScript projects with component library constraints
