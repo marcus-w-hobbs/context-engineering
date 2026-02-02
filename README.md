@@ -207,6 +207,20 @@ The CLAUDE.md file isn't documentation for humans. It's **runtime context for ag
 
 ---
 
+## Related Projects
+
+### [Mastermind Alliance](https://github.com/marcus-w-hobbs/mastermind-alliance)
+
+Context engineering applied to AI persona dialogue. Features:
+
+- **Multi-persona roundtable discussions** — Historical/philosophical figures debating user questions
+- **Prompt ablation research** — 466 experimental runs testing which system prompt components are load-bearing vs decorative
+- **Key finding** — Minimal prompts (just the persona name) work surprisingly well for famous figures; model priors may make explicit style guidance redundant
+
+The ablation study demonstrates a core context engineering principle: **measure before you add complexity**. Sometimes the model already knows what you're trying to teach it.
+
+---
+
 ## License
 
 MIT
